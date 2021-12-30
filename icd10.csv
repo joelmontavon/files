@@ -1,0 +1,50 @@
+parent(s),code,desc,includes,excludes,is_child
+,A00,Cholera,,,0
+Cholera (A00),A00.0,"Cholera due to Vibrio cholerae 01, biovar cholerae",Classical cholera,,1
+Cholera (A00),A00.1,"Cholera due to Vibrio cholerae 01, biovar eltor",Cholera eltor,,1
+Cholera (A00),A00.9,"Cholera, unspecified",,,1
+,A01,Typhoid and paratyphoid fevers,,,0
+Typhoid and paratyphoid fevers (A01),A01.0,Typhoid fever,Infection due to Salmonella typhi,,0
+Typhoid and paratyphoid fevers (A01) > Typhoid fever (A01.0),A01.00,"Typhoid fever, unspecified",Infection due to Salmonella typhi,,1
+Typhoid and paratyphoid fevers (A01) > Typhoid fever (A01.0),A01.01,Typhoid meningitis,Infection due to Salmonella typhi,,1
+Typhoid and paratyphoid fevers (A01) > Typhoid fever (A01.0),A01.02,Typhoid fever with heart involvement,Infection due to Salmonella typhi;Typhoid endocarditis;Typhoid myocarditis,,1
+Typhoid and paratyphoid fevers (A01) > Typhoid fever (A01.0),A01.03,Typhoid pneumonia,Infection due to Salmonella typhi,,1
+Typhoid and paratyphoid fevers (A01) > Typhoid fever (A01.0),A01.04,Typhoid arthritis,Infection due to Salmonella typhi,,1
+Typhoid and paratyphoid fevers (A01) > Typhoid fever (A01.0),A01.05,Typhoid osteomyelitis,Infection due to Salmonella typhi,,1
+Typhoid and paratyphoid fevers (A01) > Typhoid fever (A01.0),A01.09,Typhoid fever with other complications,Infection due to Salmonella typhi,,1
+Typhoid and paratyphoid fevers (A01),A01.1,Paratyphoid fever A,,,1
+Typhoid and paratyphoid fevers (A01),A01.2,Paratyphoid fever B,,,1
+Typhoid and paratyphoid fevers (A01),A01.3,Paratyphoid fever C,,,1
+Typhoid and paratyphoid fevers (A01),A01.4,"Paratyphoid fever, unspecified",Infection due to Salmonella paratyphi NOS,,1
+,A02,Other salmonella infections,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,0
+Other salmonella infections (A02),A02.0,Salmonella enteritis,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi;Salmonellosis,,1
+Other salmonella infections (A02),A02.1,Salmonella sepsis,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,1
+Other salmonella infections (A02),A02.2,Localized salmonella infections,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,0
+Other salmonella infections (A02) > Localized salmonella infections (A02.2),A02.20,"Localized salmonella infection, unspecified",infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,1
+Other salmonella infections (A02) > Localized salmonella infections (A02.2),A02.21,Salmonella meningitis,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,1
+Other salmonella infections (A02) > Localized salmonella infections (A02.2),A02.22,Salmonella pneumonia,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,1
+Other salmonella infections (A02) > Localized salmonella infections (A02.2),A02.23,Salmonella arthritis,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,1
+Other salmonella infections (A02) > Localized salmonella infections (A02.2),A02.24,Salmonella osteomyelitis,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,1
+Other salmonella infections (A02) > Localized salmonella infections (A02.2),A02.25,Salmonella pyelonephritis,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi;Salmonella tubulo-interstitial nephropathy,,1
+Other salmonella infections (A02) > Localized salmonella infections (A02.2),A02.29,Salmonella with other localized infection,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,1
+Other salmonella infections (A02),A02.8,Other specified salmonella infections,infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,1
+Other salmonella infections (A02),A02.9,"Salmonella infection, unspecified",infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi,,1
+,A03,Shigellosis,,,0
+Shigellosis (A03),A03.0,Shigellosis due to Shigella dysenteriae,Group A shigellosis [Shiga-Kruse dysentery],,1
+Shigellosis (A03),A03.1,Shigellosis due to Shigella flexneri,Group B shigellosis,,1
+Shigellosis (A03),A03.2,Shigellosis due to Shigella boydii,Group C shigellosis,,1
+Shigellosis (A03),A03.3,Shigellosis due to Shigella sonnei,Group D shigellosis,,1
+Shigellosis (A03),A03.8,Other shigellosis,,,1
+Shigellosis (A03),A03.9,"Shigellosis, unspecified",Bacillary dysentery NOS,,1
+,A04,Other bacterial intestinal infections,,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",0
+Other bacterial intestinal infections (A04),A04.0,Enteropathogenic Escherichia coli infection,,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",1
+Other bacterial intestinal infections (A04),A04.1,Enterotoxigenic Escherichia coli infection,,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",1
+Other bacterial intestinal infections (A04),A04.2,Enteroinvasive Escherichia coli infection,,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",1
+Other bacterial intestinal infections (A04),A04.3,Enterohemorrhagic Escherichia coli infection,,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",1
+Other bacterial intestinal infections (A04),A04.4,Other intestinal Escherichia coli infections,Escherichia coli enteritis NOS,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",1
+Other bacterial intestinal infections (A04),A04.5,Campylobacter enteritis,,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",1
+Other bacterial intestinal infections (A04),A04.6,Enteritis due to Yersinia enterocolitica,,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32);extraintestinal yersiniosis (A28.2)",1
+Other bacterial intestinal infections (A04),A04.7,Enterocolitis due to Clostridium difficile,Foodborne intoxication by Clostridium difficile;Pseudomembraneous colitis,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",0
+Other bacterial intestinal infections (A04) > Enterocolitis due to Clostridium difficile (A04.7),A04.71,"Enterocolitis due to Clostridium difficile, recurrent",Foodborne intoxication by Clostridium difficile;Pseudomembraneous colitis,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",1
+Other bacterial intestinal infections (A04) > Enterocolitis due to Clostridium difficile (A04.7),A04.72,"Enterocolitis due to Clostridium difficile, not specified as recurrent",Foodborne intoxication by Clostridium difficile;Pseudomembraneous colitis,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",1
+Other bacterial intestinal infections (A04),A04.8,Other specified bacterial intestinal infections,,"bacterial foodborne intoxications, NEC (A05.-);tuberculous enteritis (A18.32)",1
